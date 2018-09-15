@@ -1,5 +1,4 @@
 #logo{
-    /*background: url(../images/logo.png) top center no-repeat;*/
     display: block;
     margin-left: 0px;
     width: 500px;
@@ -33,4 +32,20 @@ table{
 }
 .size{
     font-size: 40px;
+}
+#indentation{
+    margin-top: 120px;
+}
+.col { 
+    background: blue;
+    color: orange;
+    width: 750px;
+    font-size: 25px;
+    word-wrap: break-word;
+    margin: 0 auto;
+   }
+.col ::first-letter{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    color: red;
 }
