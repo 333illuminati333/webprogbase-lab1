@@ -1,0 +1,36 @@
+#logo{
+    /*background: url(../images/logo.png) top center no-repeat;*/
+    display: block;
+    margin-left: 0px;
+    width: 500px;
+	margin: 0 auto;
+}
+
+body {
+    background-image: url("../images/background.png");
+    text-align: center;
+    
+}
+table{
+    margin: 0 auto;
+}
+.grow { transition: all .2s ease-in-out;
+    border-radius: 100px;
+    border: 3px solid orange;
+}
+.grow:hover { transform: scale(1.1); }
+#sections {
+	padding: 0px;
+	margin-bottom: 40px;
+}
+#sections > li {
+	list-style: none;
+	padding: 0px;
+	color: darkblue;
+}
+#color{
+    color: orange;  
+}
+.size{
+    font-size: 40px;
+}
